@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JamIT</title>
+    <style>
+        body {
+            display: flex;
+            margin: 0;
+        }
+
+        #logo {
+            width: 100px;
+            height: 80px;
+            margin-left: none;
+        }
+
+        header {
+            background-color: rgb(2, 2, 2);
+            border-radius: 20px;
+            margin-bottom: 50px;
+
+        }
+
+        .sidebar {
+            background-color: rgb(37, 37, 38);
+            width: 300px;
+            border: 6px solid rgb(37, 37, 38);
+            border-radius: 20px;
+            height: 100vh;
+        }
+
+        .sidebar button {
+            position: relative;
+            left: 80px;
+            width: 150px;
+            border-radius: 20px;
+        }
+
+        .sidebar ul a {
+            color: white;
+            text-decoration: none;
+
+        }
+
+        .main {
+            flex: 1;
+            border: 6px solid black;
+            border-radius: 20px;
+            margin-left: 20px;
+            position: relative;
+            left: 1px;
+            bottom: 1px;
+            height: 100vh;
+
+        }
+
+        .main iframe {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sidebar">
+        <header>
+            <img id="logo" src="logo-removebg-preview.png" alt="JamIT">
+        </header>
+        <ul>
+            <li style="list-style-image: url(play-regular-24.png);"><a href="#">Listen Now</a></li><br>
+            <li style="list-style-image: url(windows-logo-24.png);"><a href="#">Browse</a></li><br>
+            <li style="list-style-image: url(radio-solid-24.png);"> <a
+                    href="C:\Users\Maxpain Rahul\Desktop\hackthon\CLONE\SLONE\Spotify Clone\index.html">Playlist</a></li><br>
+        </ul>
+    </div>
+    <div class="main">
+
+        <iframe src="https://untitled-79333.framer.ai/"></iframe>
+
+    </div>
+</body>
+
+</html>
